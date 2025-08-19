@@ -21,7 +21,7 @@ body {
   max-width: 350px;
   width: 90%;
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(3px);
   animation: fadeIn 1s ease forwards;
 }
 
@@ -41,8 +41,8 @@ body {
 /* UFO */
 .ufo-container {
   position: absolute;
-  top: -90px; /* just above avatar */
-  left: 50%;
+  top: -60px; /* just above avatar */
+  left: 65%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
